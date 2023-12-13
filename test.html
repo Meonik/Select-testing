@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <Html>
+    <title>
+      test
+    </title>
+    <body>
+    
+        <select id="selectyoo">
+          <option class= "option" selected="selected" value="1">1</option>
+          <option class= "option" value="2">2</option>
+          <option class= "option" value="3">3</option>
+          <option class= "option" value="4">4</option>
+          <option class= "option" value="5">5</option>
+          <option class= "option" value="6">6</option>
+          <option class= "option" value="7">7</option>
+          <option class= "option" value="8">8</option>
+          <option class= "option" value="9">9</option>
+          <option class= "option" value="10">10</option>
+        </select>
+        <button type="button" id="button">Submit</button>
+
+        <div class="screen">
+          value1
+        </div>
+  
+        <script>
+          var button = document.getElementById('button');
+          var e = document.getElementById('selectyoo')
+          button.addEventListener('click', (button)=>{
+            console.log(e.value);
+          })
+          
+
+          
+
+        console.log(document.querySelector(".screen").innerText);
+        
+        </script>
+    </body>
+  </Html>
